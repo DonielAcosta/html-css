@@ -7,31 +7,26 @@
     <title>Calendario</title>
 </head>
 <body>
-    <!-- <form action="">
-        <label for="hora">
-            <span>Hora</span>
-            <input type="time" name="hora" id="hora">
-        </label>
-        <label for="dia">
-            <span>Dia</span>
-            <input type="date" name="dia" id="dia">
-        </label>
-        <label for="semana">
-            <span>Semana</span>
-            <input type="week" name="semana" id="semana">
-        </label>
-        <label for="mes">
-            <span>Mes</span>
-            <input type="month" name="mes" id="mes">
-        </label>
-        <input type="submit">
-    </form> -->
-    <form action="">
-        <label for="calendario">
-            <span>Calendario</span>
-            <input type="datetime-local" name="calendario" id="calendario">
-        </label>
-        <input type="submit"/>
-    </form>
+    <main>
+        <form action="">
+            <label for="name">
+                <span>¿Cual es tu Nombre?</span>
+                <input type="text" name="name" id="name" placeholder="Tu Nombre" autocomplete="name" required>
+            </label>
+            <label for="correo">
+                <span>¿Cual es tu correo?</span>
+                <input type="email" name="correo" id="correo" placeholder="doni@gmail.com" autocomplete="email" required>
+            </label>
+            <label for="pais">
+                <span>¿Cual es tu Pais?</span>
+                <input type="text" name="pais" id="pais" placeholder="venezuela" autocomplete="country" required>
+            </label>
+            <label for="codigo-postal">
+                <span>¿Cual es tu codigo postal?</span>
+                <input type="text" name="codigo-postal" id="codigo-postal" placeholder="5101" autocomplete="postal-code" required>
+            </label>
+            <input type="submit"/>
+        </form>
+    </main>
 </body>
 </html>
